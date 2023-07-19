@@ -12,12 +12,12 @@ struct QuestionsView: View {
         ScrollView(showsIndicators: false){
             VStack(spacing: 40){
                 VStack(alignment:.leading,spacing: 24){
-                    Text("Question \(triviaManager.index + 1)/\(triviaManager.length)")
-                         .foregroundColor(.gray)
+                    Text("\(Text("Question \(triviaManager.index + 1)").font(.largeTitle))/\(triviaManager.length)")
+                         .foregroundColor(Color("TitleColor"))
                          .font(.title3)
                      Divider()
-                         .frame(height: 1)
-                         .background(.white)
+                        .frame(height: 0.25)
+                         .background(Color("TitleColor"))
                      
                     Text(triviaManager.question)
                         .title3()
