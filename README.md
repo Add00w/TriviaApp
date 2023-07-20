@@ -9,4 +9,4 @@ I built Trivia game using SwiftUI
 <br/><br/>
 
 ## Showcase
-<video src='TriviaGame.mp4' width=180></video>
+<video src='https://github.com/Add00w/TriviaApp/blob/main/TriviaGame.mp4' width=180></video>
